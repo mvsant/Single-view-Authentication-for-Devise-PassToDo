@@ -22,8 +22,9 @@
   </div>
 
   <div class="field">
-    <%= form.label :status %>
-    <%= form.number_field :status %>
+    <%= form.label :status, "Tipo" %>
+    <%= form.select :status, options_for_select(Todo.statuses.keys),
+     :class => "custom-select custom-select-lg mb-3" %>
   </div>
 
   <div class="actions">
