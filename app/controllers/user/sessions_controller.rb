@@ -9,7 +9,7 @@ class User::SessionsController < Devise::SessionsController
     clean_up_passwords(resource)
     yield resource if block_given?
     #respond_with(resource, serialize_options(resource))
-    #render :template => 'todos/pass'
+    render :template => 'todos/pass'
   end
 
   # POST /resource/sign_in
