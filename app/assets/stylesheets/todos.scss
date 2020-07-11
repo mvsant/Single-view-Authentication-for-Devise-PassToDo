@@ -14,8 +14,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: -20px 0 50px;
+  /* height: 100vh; */
+  margin: 0 0 10px;
 }
 
 h1 {
@@ -53,7 +53,7 @@ a {
   width: 768px;
   max-width: 100%;
   min-height: 680px;
-  margin-top: 20px;
+  margin-bottom: 25px;
 }
 
 .form-container form {

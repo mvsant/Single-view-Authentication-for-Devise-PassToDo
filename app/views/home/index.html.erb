@@ -1,6 +1,5 @@
 <p id="notice"><%= notice %></p>
 <h1>Welcome to Todos App!</h1>
-
 <table>
   <thead>
     <tr>
@@ -31,5 +30,6 @@
 <br />
 
 <br />
-<%= link_to "Login Pass", pass_path%> <% if user_signed_in? %> <%= link_to "Log Out",
-destroy_user_session_path, method: :delete %> <% end %>
+<% unless user_signed_in? %> 
+<%= link_to "Login Pass", pass_path%> 
+<% end %>
