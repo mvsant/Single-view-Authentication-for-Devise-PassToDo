@@ -30,8 +30,8 @@ class User::RegistrationsController < Devise::RegistrationsController
     else
       clean_up_passwords resource
       set_minimum_password_length
-      #respond_with resource      #CUSTOM
-      #redirect_to pass_path      #Redirect without messages
+      #respond_with resource      # DEFAULT
+      #redirect_to pass_path      # Redirect without messages
       #render "pass"              # Require create path: views/user/registrations/pass.html.erb
       render :template => 'todos/pass'
     end
