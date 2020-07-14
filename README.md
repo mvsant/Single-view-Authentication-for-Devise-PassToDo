@@ -9,6 +9,8 @@
 
 ## Use case scenario for single page authentication using Devise.
 
+![Show login page resizing Demo](demo/demo.gif)
+
 # Direct on point
 
 This repository is one scaffolded template who uses one custom partial/page, instead of Devise generated views
@@ -74,11 +76,13 @@ that's my current versions of:
 
 ```ruby '2.7.0'```
 
+```gem 'rails', '~> 6.0.3', '>= 6.0.3.2'```
+
 ```gem 'devise', '~> 4.7', '>= 4.7.2'```
 
 ```gem 'rails', '~> 6.0.3', '>= 6.0.3.2'```
 
-# How you run the code?
+# How do you run the code:
 
 Considering that you know how to clone a repository and have Ruby installed on your "machine",
 Simply clone or fork the repo, and then run
@@ -86,6 +90,8 @@ Simply clone or fork the repo, and then run
 ```bin/yarn ```
 
 ```rails db:seed```
+
+```rails assets:precompile``` | Optional
 
 ```rails s ```
 
