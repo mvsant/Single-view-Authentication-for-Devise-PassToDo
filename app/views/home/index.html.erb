@@ -1,4 +1,8 @@
 <p id="notice"><%= notice %></p>
+<% unless user_signed_in? %> 
+<%= link_to "Login Pass", pass_path%> 
+<% end %>
+<br>
 <h1>Welcome to Todos App!</h1>
 <table>
   <thead>
@@ -27,9 +31,4 @@
   </tbody>
 </table>
 
-<br />
 
-<br />
-<% unless user_signed_in? %> 
-<%= link_to "Login Pass", pass_path%> 
-<% end %>
