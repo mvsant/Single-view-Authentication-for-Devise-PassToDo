@@ -38,7 +38,7 @@ todo1 = Todo.create! :title => 'Wash the car',
                      :user_id => 1
 
 todo2 = Todo.create! :title => 'Buy beer', 
-                     :description => 'Buy berr for weekend ;)',
+                     :description => 'Buy beer for weekend ;)',
                      :status => 1,
                      :user_id => 1
                      
