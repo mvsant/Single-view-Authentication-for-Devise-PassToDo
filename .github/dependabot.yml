@@ -1,0 +1,37 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+# dependabot.yml file with
+# reviews and an assignee for all npm pull requests
+
+version: 2
+updates:
+  # Keep npm dependencies up to date
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    allow:
+      # Allow both direct and indirect updates for all packages
+      - dependency-type: "all"
+    # Raise all npm pull requests with an assignee
+    assignees:
+      - "marlonveiga-santos"
+  # Maintain dependencies for yarn
+  - package-ecosystem: "yarn"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    allow:
+      # Allow both direct and indirect updates for all packages
+      - dependency-type: "all"
+  # Maintain dependencies for bundler
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    allow:
+      # Allow both direct and indirect updates for all packages
+      - dependency-type: "all"
