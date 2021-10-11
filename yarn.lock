@@ -2094,9 +2094,9 @@ color@^3.0.0:
     color-string "^1.6.0"
 
 colorette@^2.0.10:
-  version "2.0.14"
-  resolved "https://registry.yarnpkg.com/colorette/-/colorette-2.0.14.tgz#1629bb27a13cd719ff37d66bc341234af564122e"
-  integrity sha512-TLcu0rCLNjDIdKGLGqMtPEAOAZmavC1QCX4mEs3P0mrA/DDoU/tA+Y4UQK/862FkX2TTlbyVIkREZNbf7Y9YwA==
+  version "2.0.16"
+  resolved "https://registry.yarnpkg.com/colorette/-/colorette-2.0.16.tgz#713b9af84fdb000139f04546bd4a93f62a5085da"
+  integrity sha512-hUewv7oMjCp+wkBv5Rm0v87eJhq4woh5rSR+42YSQJKecCqgIqNkZ6lAlQms/BwHPJA5NKMRlpxPRv0n8HQW6g==
 
 commander@^2.20.0:
   version "2.20.3"
@@ -7169,9 +7169,9 @@ wrappy@1:
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
 ws@^8.1.0:
-  version "8.2.2"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.2.2.tgz#ca684330c6dd6076a737250ed81ac1606cb0a63e"
-  integrity sha512-Q6B6H2oc8QY3llc3cB8kVmQ6pnJWVQbP7Q5algTcIxx7YEpc0oU4NBVHlztA7Ekzfhw2r0rPducMUiCGWKQRzw==
+  version "8.2.3"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.2.3.tgz#63a56456db1b04367d0b721a0b80cae6d8becbba"
+  integrity sha512-wBuoj1BDpC6ZQ1B7DWQBYVLphPWkm8i9Y0/3YdHjHKHiohOJ1ws+3OccDWtH+PoC9DZD5WOTrJvNbWvjS6JWaA==
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.2"
