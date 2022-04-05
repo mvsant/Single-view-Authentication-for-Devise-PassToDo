@@ -7,7 +7,7 @@
     "@rails/ujs": "^7.0.2",
     "@rails/webpacker": "^5.4.3",
     "glob-parent": "^6.0.2",
-    "normalize-url": "^7.0.2",
+    "normalize-url": "^7.0.3",
     "serialize-javascript": "^6.0.0",
     "trim-newlines": "^4.0.2",
     "turbolinks": "^5.2.0"
