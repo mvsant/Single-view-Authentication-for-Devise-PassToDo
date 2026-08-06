@@ -8,12 +8,12 @@
     "@rails/webpacker": "^5.4.3",
     "glob-parent": "^6.0.2",
     "normalize-url": "^7.0.3",
-    "serialize-javascript": "^6.0.0",
+    "serialize-javascript": "^7.0.5",
     "trim-newlines": "^4.0.2",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "webpack-dev-server": "^5.2.4"
+    "webpack-dev-server": "^5.2.6"
   }
 }
